@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 0.5rem;
+    margin: 20px;
+}
+
+.cabecalho img{
+    height: 64px;
+    margin-right: auto;
+    width: 128px;
+}
+
+.cabecalho h1{
+    color: #fff;
+    padding-right: 2rem;
+    margin-top: 10px;
+}
+
+.busca{
+    margin: auto;
+    margin-left: 35%;
+}
+
+.busca input{
+    border-radius: 16px;
+    border-color: rgb(188, 188, 188);
+    color: #495057;
+    padding: 12px 8px;
+    width: 380px;
+}
+
+.lista{
+    margin: 2rem 64px;
+    padding: 3rem;
+}
+
+.lista{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 100ms ease-in-out;
+}
+
+.lista p{
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+.lista h1{
+    text-shadow: 0 0 8px rgb(141, 141, 141);
+    color: red;
+}
+
+.lista:hover{
+    transform: scale(1.05);
+}
+
+.qntd{
+    margin: 20px;
+    margin-left: 64px;
+}
+
+.rodape{
+    background-color: #000;
+    padding: 0.5rem;
+    margin: 20px;
+}
+
+.rodape footer{
+    display: flex;
+    margin: 20px auto;
+}
+
+.rodape p{
+    color: #fff;
+    margin: auto;
+}
