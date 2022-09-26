@@ -31,7 +31,7 @@ class App extends Component{
   }
 
   render(){
-    const {busca, odas} = this.state; //Atribuição via desestruturação
+    const {odas} = this.state; //Atribuição via desestruturação
       return (
         <section className= "container">
 
